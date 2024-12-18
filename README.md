@@ -33,7 +33,7 @@ This project aimed to [improve upon a digitized version of VM0048](https://githu
 >   - Removal of "Activity Data" schema
 >   - Expansion of uncertainty, leakage, ex-ante project scenario estimations, previously missing GHG sources, non-CO2 GHG emissions, and more.
 
-- [Further details available for VM0048/VMD0055 on GitHub with comprehensive README]()
+- [Further details available for VM0048/VMD0055 on GitHub with comprehensive README](https://github.com/xj85770/guardian/tree/main/Methodology%20Library/Verra/VM0048)
 - [Pull request]() for VM0048 & VMD0055 into hashgraph/guardian GitHub
 
 ## List of Tech Stack Used
