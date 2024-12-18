@@ -1,4 +1,4 @@
-# VM0048,VMD0055, VT0001
+# VM0048, VMD0055, VT0001
 
 Submission for Hello Future Hackathon by Hedera
 
@@ -53,14 +53,12 @@ This project aimed to [improve upon a digitized version of VM0048](https://githu
 
 ## Testing Instructions
 
-This policy can be imported via Github (.policy file) or IPFS timestamp, and tested via a [Dry Run](https://docs.guardianservice.io/learn/important-concepts/about-dry-run).
+This policy can be imported via Github (.policy file) or IPFS timestamp.
 
 | Version | IPFS Timestamp | Policy File Link | Version Differences |
 |---|---|---|---:|
 | VM0048 2.0.0  | | [Link]() | Verra Methodology |
 | VT0001 1.0.0  | 1734352827.528167545 | [Link](https://github.com/xj85770/VM0048-hello-future-hackathon/blob/main/Verra%20VT0001%20Tool.tool) | Verra Tool |
-
-To import a policy file into the Managed Guardian Service (MGS) using either a `.policy` file or an IPFS-based approach, follow the steps below:
 
 1. **Access the Policies Tab**  
    Log in to the [MGS interface](https://guardianservice.app/) and navigate to **Manage Policies** under the **Polices** tab.
@@ -98,6 +96,8 @@ To import a policy file into the Managed Guardian Service (MGS) using either a `
    - Once everything looks good, click on Import Button.
 
 7. Once the file is successfully imported and reviewed, the policy will now appear in the **Policies** tab.
+8. Test via a [Dry Run](https://docs.guardianservice.io/learn/important-concepts/about-dry-run).
+9. Compare calculations and VCUs minted using the "VM0048 Project Design" spreadsheet provided in the [VM0048 VMD0055 REDD Template v2]().
 
 ## Selected hackathon track
 
