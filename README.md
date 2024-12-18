@@ -97,7 +97,7 @@ This policy can be imported via Github (.policy file) or IPFS timestamp.
 
 7. Once the file is successfully imported and reviewed, the policy will now appear in the **Policies** tab.
 8. Test via a [Dry Run](https://docs.guardianservice.io/learn/important-concepts/about-dry-run).
-9. Compare calculations and VCUs minted using the "VM0048 Project Design" spreadsheet provided in the [VM0048 VMD0055 REDD Template v2]().
+9. Compare calculations and VCUs minted using the "VM0048 Project Design" spreadsheet provided in the [VM0048 VMD0055 REDD Template v2](https://github.com/xj85770/VM0048-hello-future-hackathon/blob/main/VM0048%20VMD0055%20REDD%20Template%20v2.xlsx).
 
 ## Selected hackathon track
 
