@@ -10,14 +10,22 @@ This project aimed to [improve upon a digitized version of VM0048](https://githu
 
 ### New features
 
-Separate VT0001 Additionality Tool
-- **Importance of separate tool:**
+**Separate VT0001 Additionality Tool**
+
+- ***Importance of separate tool:***
    - Now separated as a .tool file for modularity and reusability; enables use across future policies and methodologies.
    - Previously implemented as a basic Excel schema, the tool now includes improved schemas with multiple embedded analyses, guiding users through appropriate steps to determine additionality.
 - [Further details available on Github with comprehensive README](https://github.com/xj85770/guardian/tree/main/Methodology%20Library/Verra/Tools/VT0001)
 - [Pull request](https://github.com/hashgraph/guardian/pull/4491) for VT0001 into hashgraph/guardian github
 
 ### Optimisations / Problem Resolutions
+
+**Seperation of VM0048 project description and VMD0055 project description into 2 schemas for clarity**
+
+**VM0048 Improvements**
+- VCS Non-Permaneence Risk Report
+
+**VMD0055 Updates**
 
 ## List of Tech Stack Used
 
@@ -36,12 +44,12 @@ Separate VT0001 Additionality Tool
 
 ## Testing Instructions
 
-This policy can be imported via Github (.policy file) or IPFS timestamp.
+This policy can be imported via Github (.policy file) or IPFS timestamp, and tested via a [Dry Run](https://docs.guardianservice.io/learn/important-concepts/about-dry-run).
 
 | Version | IPFS Timestamp | Policy File Link | Version Differences |
 |---|---|---|---:|
 | VM0048 2.0.0  | | [Link]() | Verra Methodology |
-| VT0001 1.0.0  | 1734352827.528167545 | [Link]() | Verra Tool |
+| VT0001 1.0.0  | 1734352827.528167545 | [Link](https://github.com/xj85770/VM0048-hello-future-hackathon/blob/main/Verra%20VT0001%20Tool.tool) | Verra Tool |
 
 To import a policy file into the Managed Guardian Service (MGS) using either a `.policy` file or an IPFS-based approach, follow the steps below:
 
