@@ -2,6 +2,8 @@
 
 Submission for Hello Future Hackathon by Hedera
 
+Ledger verification of start date for [VT0001](https://explore.lworks.io/testnet/topics/0.0.5265478) and [VM0048/VMD0055](https://explore.lworks.io/testnet/topics/0.0.5271950)
+
 ## Project Description
 
 This project aimed to [improve upon a digitized version of VM0048](https://github.com/hashgraph/guardian/tree/main/Methodology%20Library/Hackathon/VM0048) REDD methodology by leveraging on Hedera's Guardian Service, which enables quantification and monitoring of emissions reductions from Verra REDD projects. It incorporates the VMD0055 module for precise unplanned deforestation impact assessments and integrates a separate VT0001 additionality tool to validate VCS AFOLU projects. Utilizing detailed schemas for carbon stock and land use calculations, the policy automates workflows for data collection, validation, and reporting. With decentralized storage via IPFS and immutability through Hedera, VM0048 ensures transparency, reliability, and alignment with international standards for generating high-integrity carbon credits.
@@ -14,7 +16,7 @@ This project aimed to [improve upon a digitized version of VM0048](https://githu
 >   - Now separated as a .tool file for modularity and reusability; enables use across future policies and methodologies.
 >   - Previously implemented as a basic Excel schema, the tool now includes improved schemas with multiple embedded analyses, guiding users through appropriate steps to determine additionality.
 >- [Further details available on GitHub with comprehensive README](https://github.com/xj85770/guardian/tree/main/Methodology%20Library/Verra/Tools/VT0001)
->- [Pull request](https://github.com/hashgraph/guardian/pull/4491) for VT0001 into hashgraph/guardian GitHub
+
 
 2. **Seperation of VM0048 project description and VMD0055 project description into 2 schemas for clarity**
 
@@ -34,7 +36,8 @@ This project aimed to [improve upon a digitized version of VM0048](https://githu
 >   - Expansion of uncertainty, leakage, ex-ante project scenario estimations, previously missing GHG sources, non-CO2 GHG emissions, and more.
 
 - [Further details available for VM0048/VMD0055 on GitHub with comprehensive README](https://github.com/xj85770/guardian/tree/main/Methodology%20Library/Verra/VM0048)
-- [Pull request]() for VM0048 & VMD0055 into hashgraph/guardian GitHub
+
+### [Pull request](https://github.com/hashgraph/guardian/pull/4491) for VT0001, VM0048 & VMD0055 into hashgraph/guardian GitHub
 
 ## List of Tech Stack Used
 
@@ -62,7 +65,7 @@ This project aimed to [improve upon a digitized version of VM0048](https://githu
 
 | Version | IPFS Timestamp | Policy File Link | Version Differences |
 |---|---|---|---:|
-| VM0048 2.0.0  | | [Link]() | Verra Methodology |
+| VM0048 2.0.0  | 1734561802.996119000 | [Link](https://github.com/xj85770/VM0048-hello-future-hackathon/blob/main/Verra%20VM0048%20Policy.policy) | Verra Methodology |
 | VT0001 1.0.0  | 1734352827.528167545 | [Link](https://github.com/xj85770/VM0048-hello-future-hackathon/blob/main/Verra%20VT0001%20Tool.tool) | Verra Tool |
 
 ### **Option 1: Import a `.policy` File**
