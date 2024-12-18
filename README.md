@@ -10,22 +10,34 @@ This project aimed to [improve upon a digitized version of VM0048](https://githu
 
 ### New features
 
-**Separate VT0001 Additionality Tool**
+1. **Separate VT0001 Additionality Tool**
 
-- ***Importance of separate tool:***
-   - Now separated as a .tool file for modularity and reusability; enables use across future policies and methodologies.
-   - Previously implemented as a basic Excel schema, the tool now includes improved schemas with multiple embedded analyses, guiding users through appropriate steps to determine additionality.
-- [Further details available on Github with comprehensive README](https://github.com/xj85770/guardian/tree/main/Methodology%20Library/Verra/Tools/VT0001)
-- [Pull request](https://github.com/hashgraph/guardian/pull/4491) for VT0001 into hashgraph/guardian github
+>- ***Importance of separate tool:***
+>   - Now separated as a .tool file for modularity and reusability; enables use across future policies and methodologies.
+>   - Previously implemented as a basic Excel schema, the tool now includes improved schemas with multiple embedded analyses, guiding users through appropriate steps to determine additionality.
+>- [Further details available on GitHub with comprehensive README](https://github.com/xj85770/guardian/tree/main/Methodology%20Library/Verra/Tools/VT0001)
+>- [Pull request](https://github.com/hashgraph/guardian/pull/4491) for VT0001 into hashgraph/guardian GitHub
 
 ### Optimisations / Problem Resolutions
 
-**Seperation of VM0048 project description and VMD0055 project description into 2 schemas for clarity**
+2. **Seperation of VM0048 project description and VMD0055 project description into 2 schemas for clarity**
 
-**VM0048 Improvements**
-- VCS Non-Permaneence Risk Report
+3. **VM0048 Improvements**
 
-**VMD0055 Updates**
+>- VT0001 Tool added as a tool and not as a schema.
+>- VCS Non-Permaneence Risk Report added.
+>- Monitoring Plan and Monitoring Report schemas added.
+>- Final VCU calculations now minting correct number of tokens.
+
+4. **VMD0055 Updates**
+
+>- More accurate and expanded upon Standard Operating Procedures schema.
+>- More accurate and streamlined VMD0055 Potential Verified Carbon Units from Unplanned Deforestation calculations including:
+>   - Removal of "Activity Data" schema
+>   - Expansion of uncertainty, leakage, ex-ante project scenario estimations, previously missing GHG sources, non-CO2 GHG emissions, and more.
+
+- [Further details available for VM0048/VMD0055 on GitHub with comprehensive README]()
+- [Pull request]() for VM0048 & VMD0055 into hashgraph/guardian GitHub
 
 ## List of Tech Stack Used
 
