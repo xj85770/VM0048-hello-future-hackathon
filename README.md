@@ -8,8 +8,6 @@ This project aimed to [improve upon a digitized version of VM0048](https://githu
 
 ## Improvements and progress
 
-### New features
-
 1. **Separate VT0001 Additionality Tool**
 
 >- ***Importance of separate tool:***
@@ -17,8 +15,6 @@ This project aimed to [improve upon a digitized version of VM0048](https://githu
 >   - Previously implemented as a basic Excel schema, the tool now includes improved schemas with multiple embedded analyses, guiding users through appropriate steps to determine additionality.
 >- [Further details available on GitHub with comprehensive README](https://github.com/xj85770/guardian/tree/main/Methodology%20Library/Verra/Tools/VT0001)
 >- [Pull request](https://github.com/hashgraph/guardian/pull/4491) for VT0001 into hashgraph/guardian GitHub
-
-### Optimisations / Problem Resolutions
 
 2. **Seperation of VM0048 project description and VMD0055 project description into 2 schemas for clarity**
 
