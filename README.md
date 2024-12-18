@@ -53,18 +53,17 @@ This project aimed to [improve upon a digitized version of VM0048](https://githu
 
 ## Testing Instructions
 
-This policy can be imported via Github (.policy file) or IPFS timestamp.
+1. **Access the Policies Tab**  
+   Log in to the [MGS interface](https://guardianservice.app/) and navigate to **Manage Policies** under the **Polices** tab.
+
+2. **Initiate the Import Process**  
+   - Click the **Import** button.
+   - This policy can be imported via Github (.policy file) or IPFS timestamp.
 
 | Version | IPFS Timestamp | Policy File Link | Version Differences |
 |---|---|---|---:|
 | VM0048 2.0.0  | | [Link]() | Verra Methodology |
 | VT0001 1.0.0  | 1734352827.528167545 | [Link](https://github.com/xj85770/VM0048-hello-future-hackathon/blob/main/Verra%20VT0001%20Tool.tool) | Verra Tool |
-
-1. **Access the Policies Tab**  
-   Log in to the [MGS interface](https://guardianservice.app/) and navigate to **Manage Policies** under the **Polices** tab.
-
-2. **Initiate the Import Process**  
-   Click the **Import** button.
 
 ### **Option 1: Import a `.policy` File**
 
