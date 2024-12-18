@@ -31,6 +31,7 @@ This project aimed to [improve upon a digitized version of VM0048](https://githu
 
 4. **VMD0055 Updates**
 
+>- Alignment with version 1.1, released October 2024.
 >- More accurate and expanded upon Standard Operating Procedures schema.
 >- More accurate and streamlined VMD0055 Potential Verified Carbon Units from Unplanned Deforestation calculations including:
 >   - Removal of "Activity Data" schema
